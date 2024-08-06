@@ -1,0 +1,205 @@
+ *{
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ html, body {
+    height: 100%;
+    width: 100%;
+ }
+
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: #1F2937;
+    color: white;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding-top: 20px;
+}
+
+header h3{
+    margin-right: 10px;
+    margin-left: 30px;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: 50%;
+}
+
+li {
+    margin-right: 30px;
+    margin-top: 5px;
+    position: right;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.pageone {
+    background-color: #1F2937;
+    color: white;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.webtext {
+    /* border : 1px solid #E5E7EB; */
+    width: 30%;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.pageone h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+
+}
+
+.pageone p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.pageone button {
+    background-color: #3882F6;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+    border-color: #3882F6;
+    width: 20%;
+    margin-top: 15px;
+}
+
+.pageone img {
+    flex: 0 0 auto; 
+    width: 500px; 
+    height: 250px; 
+}
+
+.pagetwo {
+    background-color: #F9FAF8;
+    padding: 20px 50px 150px 20px;
+}
+
+.pagetwo h3 {
+    font-size: 36px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.boxespart {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    color: black;
+    justify-content: center;
+}
+
+.boxsize {
+    width: 200px;
+    height: 200px;
+    margin-right: 40px;
+}
+
+.textinfo {
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    color: grey;
+    text-align: center;
+
+
+}
+
+.pagetwo .boxes {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: 3px solid #3882F6;
+}
+
+.pagethree {
+    background-color: #E5E7EB;
+    padding: 120px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.quotetext{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: lighter;
+    height: 180px;
+    width: 820px;
+    text-align: left;
+}
+
+.author {
+    font-weight: bold;
+    display:flex;
+    justify-content: right;
+
+}
+
+.pagefour {
+    background-color: white;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.bluebox {
+    background-color: #3882F6;
+    padding: 40px;
+    border-radius: 10px;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    
+}
+
+.bluebox h3 {
+    color: white;
+    font-weight: bold;
+}
+
+.bluebox p {
+    color:#E5E7EB;
+}
+
+.bluebox button{
+    background-color:#3882F6;
+    color: white;
+    padding: 5px 30px 5px 30px;
+    font-weight: bold;
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+footer {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
